@@ -1,4 +1,9 @@
 const apiKey = "c942a98b"
+function executeEntree(event) {
+  if (event && event.key === 'Enter') {  
+    filmSearch()
+  }
+}
 function filmSearch(){
   const searchInput = document.getElementById("searchInput").value.trim()
   if (searchInput === "") {

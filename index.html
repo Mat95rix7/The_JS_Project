@@ -10,7 +10,7 @@
 </head>
 <body>
     <div class="movies">
-        <input type="text" id="searchInput" placeholder="Entrez le nom du film recherché">
+        <input type="text" id="searchInput" id="myInput" onkeydown="executeEntree(event)" placeholder="Entrez le nom du film recherché">
         <button class="btn" type="button" onclick="filmSearch()" title="Rechecher"><img class="search" src="search.png"></button>
     </div>
     <section class="films">
