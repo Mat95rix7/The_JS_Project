@@ -21,7 +21,7 @@ function afficherDetailsFilm(data) {
   const detailsHTML = `
     <section class="films_details">
       <article>
-        <img src="${data.Poster}" alt="${data.Title} Poster">
+        <img class="poster" src="${data.Poster}" alt="${data.Title} Poster">
       </article>
       <article>
         <h2>${data.Title}</h2>
