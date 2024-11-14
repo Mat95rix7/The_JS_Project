@@ -34,7 +34,7 @@ function afficherResultats(films) {
       const imageElement = document.createElement("img")
       imageElement.src = film.Poster
       const btnElement = document.createElement("button")
-      btnElement.innerText = "Voir plus"
+      btnElement.innerText = "Details du film"
         
       movieElement.appendChild(titleElement)
       movieElement.appendChild(imageElement)
